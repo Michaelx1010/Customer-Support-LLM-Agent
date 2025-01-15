@@ -406,7 +406,7 @@ if __name__ == "__main__":
     # Initialize agent with sample size for testing
     try:
         agent = CustomerSupportAgent(
-            api_key="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",  # Replace with your OpenAI API key
+            api_key="",  # Replace with your OpenAI API key
             reviews_data_path="amazon.tsv",  # Path to your Amazon reviews file
             sample_size=10000  # Load 10k reviews for testing
         )
