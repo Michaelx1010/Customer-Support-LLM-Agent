@@ -74,6 +74,8 @@ The agent provides rich visual output including:
 - Rating distribution charts
 - Execution timeline visualizations
 - Customer satisfaction metrics
+![Sentiment Analysis](imgs/outputs.png)
+
 
 
 ## 🛠️ Configuration
@@ -90,7 +92,7 @@ agent = CustomerSupportAgent(
 
 ## 📝 Data Format
 
-The agent uses US Amazon customer Reviews data from ![Amazon Customer Review](https://www.kaggle.com/datasets/cynthiarempel/amazon-us-customer-reviews-dataset?resource=download&select=amazon_reviews_multilingual_US_v1_00.tsv), feel free to modify the code to accomodate your own datasets.
+The agent uses US Amazon customer Reviews data from (https://www.kaggle.com/datasets/cynthiarempel/amazon-us-customer-reviews-dataset?resource=download&select=amazon_reviews_multilingual_US_v1_00.tsv), feel free to modify the code to accomodate your own datasets.
 
 ## 🔄 Performance Optimization
 
