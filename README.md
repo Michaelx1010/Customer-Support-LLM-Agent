@@ -12,7 +12,6 @@ An intelligent customer support agent powered by Large Language Models that prov
 - 📊 **Statistical Analysis**: Comprehensive product statistics and performance metrics
 - 💭 **Sentiment Analysis**: In-depth analysis of customer reviews with sentiment tracking over time
 - 📈 **Visual Analytics**: Rich visualizations including word clouds, sentiment trends, and rating distributions
-- 🤝 **Smart Response Generation**: Context-aware customer support response generation
 - 🔄 **Tool Selection**: Automatic selection of appropriate analysis tools based on query context
 - 📝 **Execution Tracking**: Detailed tracking and visualization of query execution steps
 
@@ -32,24 +31,6 @@ The agent is built with a modular architecture consisting of:
 - Matplotlib & Seaborn for visualization
 - NLTK & TextBlob for NLP tasks
 - scikit-learn for text vectorization and similarity matching
-
-## 🚀 Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/customer-support-llm-agent.git
-cd customer-support-llm-agent
-```
-
-2. Install required packages:
-```bash
-pip install -r requirements.txt
-```
-
-3. Set up your OpenAI API key:
-```python
-export OPENAI_API_KEY='your-api-key-here'
-```
 
 ## 📖 Usage
 
@@ -94,6 +75,7 @@ The agent provides rich visual output including:
 - Execution timeline visualizations
 - Customer satisfaction metrics
 
+
 ## 🛠️ Configuration
 
 The agent can be configured through various parameters:
@@ -103,28 +85,12 @@ agent = CustomerSupportAgent(
     api_key='your-api-key',
     dataset_path='data.tsv',
     model="gpt-4",  # OpenAI model to use
-    temperature=0.7  # Response creativity level
 )
 ```
 
 ## 📝 Data Format
 
-The agent expects a TSV file with the following columns:
-- marketplace
-- customer_id
-- review_id
-- product_id
-- product_parent
-- product_title
-- product_category
-- star_rating
-- helpful_votes
-- total_votes
-- vine
-- verified_purchase
-- review_headline
-- review_body
-- review_date
+The agent uses US Amazon customer Reviews data from ![Amazon Customer Review](https://www.kaggle.com/datasets/cynthiarempel/amazon-us-customer-reviews-dataset?resource=download&select=amazon_reviews_multilingual_US_v1_00.tsv), feel free to modify the code to accomodate your own datasets.
 
 ## 🔄 Performance Optimization
 
