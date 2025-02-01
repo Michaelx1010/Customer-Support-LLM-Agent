@@ -159,4 +159,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For support and questions, please open an issue in the GitHub repository or contact the maintainers directly.
 
 ---
-Made with ❤️ by [Your Name/Organization]
+Made by [Michael Xie]
