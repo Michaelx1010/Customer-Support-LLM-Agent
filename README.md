@@ -74,7 +74,8 @@ The agent provides rich visual output including:
 - Rating distribution charts
 - Execution timeline visualizations
 - Customer satisfaction metrics
-![Sentiment Analysis](imgs/outputs.png)
+  
+![Sentiment Analysis](imgs/output.png)
 
 
 
